@@ -6,6 +6,8 @@ import registerEvent from '@salesforce/apex/EventController.registerEvent';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 
 export default class EventListLWC extends LightningElement {
+    console.log('hello world');
+    
     @track events = [];
     @track showRegistrationForm = false;
     @track isAdmin = false;
